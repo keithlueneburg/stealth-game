@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #ecf0f1;
+    --accent-color: #e74c3c;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+}
